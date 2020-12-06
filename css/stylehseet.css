@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+}
+
+#input {
+    font-size: 30px;
+    width: 394px;
+    height: 50px;
+}
+
+.cart {
+    height: 400px;
+    width: 36%;
+    position: relative;
+}
+
+/* we'll use this in JavaScript */
+
+.div-bg {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 30px; 
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    right: 0px;
+}
